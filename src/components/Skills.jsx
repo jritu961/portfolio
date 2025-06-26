@@ -3,14 +3,15 @@ import React from 'react';
 function Skills() {
   const skillCategories = [
     {
-      title: "Languages & Frameworks",
-      icon: "💻",
+      title: "Backend Technologies",
+      icon: "⚙️",
       skills: [
-        "Node.js (Express.js, Nest.js)",
-        "JavaScript (ES6+)",
-        "React.js",
-        "Core Java",
-        "Golang"
+        "Node.js",
+        "Express.js",
+        "Nest.js",
+        "RESTful APIs",
+        "GraphQL",
+        "Microservices Architecture"
       ]
     },
     {
@@ -18,55 +19,59 @@ function Skills() {
       icon: "🗄️",
       skills: [
         "MongoDB",
-        "MySQL",
         "PostgreSQL",
-        "SQL",
-        "Cassandra"
+        "MySQL",
+        "Redis",
+        "Cassandra",
+        "Database Design & Optimization"
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Message Queues & Tools",
       icon: "🛠️",
       skills: [
-        "Docker",
-        "Git, GitLab",
+        "RabbitMQ",
         "Kafka",
         "gRPC",
-        "RabbitMQ",
-        "REST APIs"
+        "WebSockets",
+        "Docker",
+        "Git & GitLab"
       ]
     },
     {
-      title: "Frontend",
+      title: "Languages",
+      icon: "💻",
+      skills: [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Java",
+        "Golang",
+        "SQL",
+        "Python (Basic)"
+      ]
+    },
+    {
+      title: "Frontend & Full-Stack",
       icon: "🎨",
       skills: [
-        "HTML5",
-        "CSS3",
+        "React.js",
+        "HTML5 & CSS3",
+        "Tailwind CSS",
         "Bootstrap",
-        "MUI",
-        "Tailwind CSS"
+        "Material UI",
+        "Responsive Design"
       ]
     },
     {
       title: "Cloud & DevOps",
       icon: "☁️",
       skills: [
-        "AWS",
-        "Docker",
-        "CI/CD",
-        "Microservices",
-        // "Kubernetes"
-      ]
-    },
-    {
-      title: "Soft Skills",
-      icon: "🤝",
-      skills: [
-        "Problem Solving",
-        "Communication",
-        "Teamwork",
-        "Time Management",
-        "Leadership"
+        "AWS Services",
+        "CI/CD Pipelines",
+        "Docker Containerization",
+        "Nginx",
+        "PM2",
+        "Linux Administration"
       ]
     }
   ];
@@ -77,7 +82,7 @@ function Skills() {
         <div className="section-header">
           <h2 className="section-title">Skills & Expertise</h2>
           <p className="section-subtitle">
-            Technologies and tools I use to bring ideas to life
+            Backend technologies and tools I use to build scalable systems
           </p>
         </div>
         
